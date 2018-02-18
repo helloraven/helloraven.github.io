@@ -1,0 +1,97 @@
+
+.body {
+    background-image: url('../images/gplaypattern.png')
+}
+
+/* Heading fonts */
+h2, h1 {
+    font-family:"Georgia", Times, Times New Roman, serif;
+}
+
+/* Body fonts */
+p {
+    font-family: "Times New Roman", Times, serif;
+    color: #777777
+    
+}
+
+/* HEADER */
+/* page header */
+.header {
+    background: white;
+    width: 100%;
+    border: 5px;
+    border-color: #cccccc;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+/* my name displayed in header */
+}
+.myname {
+    background: #4aaaa5;
+    color: white;
+    width: 230px;
+    height: 100px;
+    border: 0px;
+    margin: 0 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* text navigation within header */
+.pagenav {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* BEGINNING OF MAIN PAGE CONTENT */
+/* about me area */
+.aboutme {
+    display: inline-flex;
+    background: white;
+    margin-top: 50px;
+    width: 650px;
+    border: 10px;
+    border-bottom-color: #dddddd
+}
+
+table, td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.connect {
+    background: white;
+    margin: 50px;
+    width: 270px;
+    display: inline-flex;
+}
+
+/* connect with me area */
+
+/* BEGINNING OF FOOTER CONTENT */
+/* footer area */
+
+.footertop {
+    background: #4aaaa5
+    height: 5px;
+    width: 100%;
+}
+
+.footer {
+    background: #666666;
+    border-top-color: #4aaaa5;
+    border-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+}
+
+
+
+
+
